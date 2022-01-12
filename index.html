@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="myForm" action="" autocomplete="on">
+    <h3>Լրացրեք Ձեր անձնական տվյալները</h3>
+    <input type="text" value="" name="name" id="name" placeholder="Անունը"></br> </br>
+    <input type="text" value="" name="lastName" id="lastName" placeholder="Ազգանունը"> </br> </br>
+    <input type="email" value="" name="email" id="email" placeholder="Էլ․ հասցեն"> </br> </br>
+    <input type="number" value=""  name="tel" id="tel" placeholder="Հեռախոսահամար"> </br> </br>
+    <h5>Ներբեռ․ Ձեր լուսանկարը</h5>
+    <input type="file" name="file">  </br>
+    <h5>Ծննդյան ամիս,օր,տարի</h5>
+    <input type="date" name="birthDate" id="birthDate"> </br> </br>
+    <h5>Նշեք Ձեր սեռը</h5>
+    <label for="male">Արական</label><input type="radio" name="gen" value="Արական" id="male">
+    <label for="female">Իգական</label><input type="radio" name="gen" value="Իգական" id="female"> </br> </br>
+    <input type="text"  id="add" name="add" placeholder="Հասցե"> </br> </br>
+    <input type="text" id="city" name="city" placeholder="Քաղաք կամ գյուղ"> </br> </br>
+    <input type="text" id="country" name="country" placeholder="Երկիր"> </br> </br>
+    <input id="submit" type="submit" value="Գրանցվել">
+    <input type="reset" value="Ջնջել">
+
+</form>
+<div id="showInfo">
+    <p id="nameShow"></p>
+    <p id="lastNameShow"></p>
+    <p id="emailShow"></p>
+    <p id="numShow"></p>
+    <p id="dateShow"></p>
+    <img id="imageShow"/>
+    <p id="genShow"></p>
+    <p id="addressShow"></p>
+    <p id="cityShow"></p>
+    <p id="countryShow"></p>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
